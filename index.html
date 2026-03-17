@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +8,32 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
+
 <body>
     <div class="main">
+           <div class="list-img"> </div>
         <div class="container">
             <div class="card">
                 <h1>To-Do List <i class="fa-solid fa-pencil"></i></h1>
                 <div class="line"></div>
-                <input type="text" placeholder="Add a new task" class="input-box">
+                <div class="add-task">
+                    <div class="input-box">
+                        <input type="text" placeholder="Add a new task" />
+                    </div>
+                    <button class="add-button">
+                        <i class="fa-solid fa-circle-plus"></i>
+                    </button>
+                </div>
+                <div class="line"></div>
+                <div class="list">
+                    <ul>
+
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
     <script src="app.js"></script>
 </body>
+
 </html>

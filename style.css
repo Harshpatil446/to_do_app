@@ -1,5 +1,5 @@
 body {
-    background-color: #f5f7fb;;
+    background-color: #f5f7fb;
 }
 
 .container {
@@ -15,6 +15,7 @@ body {
     margin-top: 130px;
     border-radius: 20px;
     background-color: #ffffff;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
 }
 
 h1 {
@@ -23,21 +24,45 @@ h1 {
 }
 
 .line {
-    height: 0.50%;
+    border: 1px solid #f7f8fc;
     width: 100%;
-    background-color: gray;
 }
 
 .card h1 i {
     color: yellow;
 }
 
-.input-box {
+.add-task {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.input-box input {
     margin-top: 5px;
     margin-left: 30px;
-    width: 80%;
-    height: 30px;
+    width: 300px;
+    height: 40px;
     border-radius: 50px;
     border: none;
-    background-color: gray;
+    background-color: #f7f8fc;
+    border: 1px solid #eaebf1;
+    padding-left: 5%;
+    margin-top: 15px;
 }
+
+ .add-button {
+    background-color: #50af5f;
+    border: none;
+    border-radius: 100%;
+    padding: 12px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 40px;
+    font-size: 1rem;
+}
+
+.add-button i {
+    color: white;
+}
+
+
