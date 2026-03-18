@@ -29,11 +29,18 @@ list_element.addEventListener("click", () => {
     li.remove();
 });
 
+checkbox.addEventListener("change", () => {
+  if (checkbox.checked) {
+    span.style.textDecoration = "line-through";
+  } else {
+    span.style.textDecoration = "none";
+  }
+});
+
    span2.appendChild(delBtn);
    li.appendChild(checkbox);
    li.appendChild(span);
    li.appendChild(span2);
-//    card.appendChild(line2);
 
    ul .appendChild(li);
 
