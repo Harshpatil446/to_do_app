@@ -65,4 +65,46 @@ h1 {
     color: white;
 }
 
+.list ul {
+    list-style: none;
+    font-size: 2rem;
+    color: rebeccapurple;
+    max-height: 300px; 
+    overflow-y: auto;   
+    scrollbar-width: thin;
+}
+
+.list ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+
+.check-box {
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.del-icon {
+    font-size: 1.5rem;
+    color: red;
+    margin-left: 150px;
+}
+
+.task {
+    font-size: 2rem;
+    color: black;
+    flex: 1;              
+    word-break: break-word;
+}
+
+.line2 {
+    border: 1px solid #f7f8fc;
+    width: 100%;
+}
 
