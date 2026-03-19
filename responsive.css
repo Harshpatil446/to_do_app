@@ -1,0 +1,38 @@
+@media (max-width: 480px) {
+    .card {
+    height: 550px;
+    width: 350px;
+}
+
+.input-box input {
+    width: 220px;
+}
+
+.task {
+    font-size: 1.2rem;
+}
+
+.check-box {
+    width: 20px;
+    height: 20px;
+}
+}
+
+@media (max-width: 344px) {
+    .card {
+    width: 320px;
+}
+
+.input-box input {
+    width: 200px;
+}
+
+.task {
+    font-size: 1rem;
+}
+
+.check-box {
+    width: 18px;
+    height: 18px;
+}
+}
