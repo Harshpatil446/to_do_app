@@ -46,8 +46,12 @@ list_element.addEventListener("click", () => {
   ul.appendChild(li);
 
   inp.value = "";
-  let nav_btn = document.querySelector(".nav-button button");
+
+  let nav_btn = document.querySelector(".nav-button1 button");
   let nav_btn2 = document.querySelector(".nav-button2 button");
+  let nav_btn3 = document.querySelector(".nav-button3 button");
+  nav_btn3.classList.add("active-btn");
+
 
   nav_btn.addEventListener("click", () => {
     if (checkbox.checked) {
@@ -55,16 +59,20 @@ list_element.addEventListener("click", () => {
     } else {
       li.style.display = "flex";
     }
+
   });
 
   nav_btn2.addEventListener("click", () => {
     li.style.display = "none";
     if (checkbox.checked) {
-      li.style.display = "inline";
+      li.style.display = "flex";
     } else {
       li.style.display = "none";
     }
   });
+
+  nav_btn3.addEventListener("click", () => {
+    li.style.display = "flex";
+  })
+
 });
-
-

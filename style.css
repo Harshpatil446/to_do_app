@@ -125,7 +125,7 @@ h1 {
     border-left: 1px solid #b6bbc5;
 }
 
-.nav-button button {
+.nav-button1 button {
     background-color: #ffffff;
     border: none;
     cursor: pointer;
@@ -136,3 +136,26 @@ h1 {
     border: none;
     cursor: pointer;
 }
+
+.nav-button3 button {
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+
+.nav-button3 button:active {
+  color: #50af5f;
+  border-bottom: 2px solid #50af5f;
+}
+
+.nav-button1 button:active {
+  color: #50af5f;
+  border-bottom: 2px solid #50af5f;
+}
+
+.nav-button2 button:active {
+  color: #50af5f;
+  border-bottom: 2px solid #50af5f;
+}
+
