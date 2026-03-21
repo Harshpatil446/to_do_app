@@ -9,7 +9,7 @@ body {
 }
 
 .card {
-    height: 550px;
+    min-height: 550px;
     width: 450px;
     background-color: #000000;
     margin-top: 130px;
@@ -68,9 +68,7 @@ h1 {
 .list ul {
     list-style: none;
     font-size: 2rem;
-    color: rebeccapurple;
-    max-height: 300px; 
-    overflow-y: auto;   
+    color: rebeccapurple;  
     scrollbar-width: thin;
 }
 
