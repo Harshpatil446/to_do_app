@@ -1,3 +1,4 @@
+
 let list_element = document.querySelector(".add-button");
 let inp = document.querySelector("input");
 let ul = document.querySelector("ul")
@@ -46,4 +47,3 @@ checkbox.addEventListener("change", () => {
 
    inp.value = "";
 });
-
