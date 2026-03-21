@@ -107,3 +107,19 @@ h1 {
     width: 100%;
 }
 
+.active {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.all {
+    color: #7e8b9e;
+}
+
+.horz-line {
+    border-left: 1px solid #b7bbc7;
+    height: 20px;
+    margin-left: 20px;
+}
