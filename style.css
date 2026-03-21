@@ -32,6 +32,10 @@ h1 {
     color: yellow;
 }
 
+.main h1 i {
+    color: yellow;
+}
+
 .add-task {
     display: flex;
     margin-bottom: 20px;
