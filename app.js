@@ -50,7 +50,7 @@ list_element.addEventListener("click", () => {
   let nav_btn = document.querySelector(".nav-button1 button");
   let nav_btn2 = document.querySelector(".nav-button2 button");
   let nav_btn3 = document.querySelector(".nav-button3 button");
-  nav_btn3.classList.add("active-btn");
+ 
 
 
   nav_btn.addEventListener("click", () => {
