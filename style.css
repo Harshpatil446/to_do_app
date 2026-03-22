@@ -159,3 +159,8 @@ h1 {
   border-bottom: 2px solid #50af5f;
 }
 
+.empty-msg {
+  text-align: center;
+  color: gray;
+  margin-top: 20px;
+}
